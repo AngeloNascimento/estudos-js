@@ -2,8 +2,29 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: aqua;
+}/*parou na estlização da pagina principal*/
 .apresentacao{
+    text-align: center;
+    padding: 10%;
+    background-color: aliceblue;
     justify-content: center;
+    margin: 5% 15% 25%;
+    border-radius: 3%;
+      
+}
+.titulo__apresentacao{
+    text-align: center;
+    
+}
+.apresentacao__img{
     margin: 10%;
-    padding: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img__apresentacao{
+    border-radius: 50%;
 }
