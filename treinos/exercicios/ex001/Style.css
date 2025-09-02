@@ -7,12 +7,13 @@ body{
 }/*parou na estlização da pagina principal*/
 .apresentacao{
     text-align: center;
-    padding: 10%;
+    padding: 10px;
     background-color: aliceblue;
     justify-content: center;
     margin: 5% 15% 25%;
     border-radius: 3%;
-      
+    box-shadow: 3px 3px 10px black;
+            
 }
 .titulo__apresentacao{
     margin-top: 10px;
@@ -34,4 +35,9 @@ body{
 }
 .img__apresentacao{
     border-radius: 50%;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    text-align: center;
 }
