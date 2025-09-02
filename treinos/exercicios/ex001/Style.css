@@ -15,8 +15,15 @@ body{
       
 }
 .titulo__apresentacao{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
     text-align: center;
-    
+}
+#msg{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .apresentacao__img{
     margin: 10%;
