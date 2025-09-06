@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal__cabecalho{
+    margin: 10px;
+    display: flex;
+    padding: 0%;    
+    font-size: 1.5rem;    
+    justify-content: center;
+
+}
+.principal__conteudo{
+    padding: 60px;
+    margin: auto;
+    width: 35%;
+    height: 15%;    
+    justify-items: center;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px black;
+}
+.hora{
+    font-size: 1.5rem;
+}
+#img{
+   padding: 20px;
+   width: 200px; 
+   border-radius: 20%;
+}
+footer{
+    margin: 30px;
+    justify-items: center;
+    font-weight:500;
+}

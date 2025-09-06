@@ -3,6 +3,7 @@ function verificar(){
     var ano = data.getFullYear();
     var fano = document.getElementById('ano');
     var res = document.getElementById('res');
+    
     if(fano.value.length == 0 || fano.value > ano){
        window.alert('verifique os dados e tente novamente!');
     }else{
@@ -37,4 +38,5 @@ function verificar(){
         res.innerHTML = `detectamos ${genero} com ${idade} anos: `;
         res.appendChild(img);//adicioona o elemento na pagina
     }
+    
 }
