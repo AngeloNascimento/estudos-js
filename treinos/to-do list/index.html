@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pricipal">
+    <header id="cabecalho" class="principal__cabecalho">
+        <h1 class="principal__titulo">Lista de tarefas</h1>
+    </header>
+    <main class="principal__conteudo">
+        
+        <section id="lista" class="lista">
+            <div> 
+                <input type="text" name="txtentrada" id="txtentrada"> 
+                <button class="btn_entrada" onclick="adicionaLista()">adicionar</button>
+            </div>
+            
+          
+            <ul class="exibeLista" id="exibeLista" aria-labelledby="exibeLista" role="list"></ul>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Angelo Nascimento</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
